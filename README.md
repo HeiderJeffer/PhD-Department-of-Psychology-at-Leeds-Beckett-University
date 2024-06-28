@@ -7,7 +7,8 @@ cognitive benefits of Ārepa formulation under conditions of cognitive
 stress, aiming to contribute significantly to the field of nutritional
 neuroscience and cognitive enhancement.
 
-**Introduction:**  
+# Introduction
+
 Plants rich in phytonutrients have been shown to benefit cognitive
 function due to their effects on metabolic pathways, blood flow,
 antioxidant activity, and neuroprotection. Blackcurrants, particularly
@@ -19,17 +20,18 @@ factors like high altitude and sleep deprivation. This PhD project aims
 to further investigate these effects through rigorous scientific
 inquiry.
 
-**Background Literature:  
-**The literature review will focus on studies investigating the
-cognitive effects of flavonoids and anthocyanins, emphasizing mechanisms
-of action such as improved blood flow, antioxidant properties, and
-modulation of neurotransmitter systems (Bell et al., 2015; Cox &
-Scholey, 2017; Li et al., 2021). Additionally, research on dietary
-interventions under cognitive stress conditions, such as high altitude
-and sleep deprivation, will be explored to contextualize the study
-(Shannon et al., 2016, 2017a, 2017b; Cook & Willems, 2019).
+# Background Literature
 
-**Aims and Objectives:**
+The literature review will focus on studies investigating the cognitive
+effects of flavonoids and anthocyanins, emphasizing mechanisms of action
+such as improved blood flow, antioxidant properties, and modulation of
+neurotransmitter systems (Bell et al., 2015; Cox & Scholey, 2017; Li et
+al., 2021). Additionally, research on dietary interventions under
+cognitive stress conditions, such as high altitude and sleep
+deprivation, will be explored to contextualize the study (Shannon et
+al., 2016, 2017a, 2017b; Cook & Willems, 2019).
+
+## Aims and Objectives
 
 1.  To assess the efficacy of the Ārepa formulation in mitigating the
     cognitive and physiological effects of high altitude exposure.
@@ -41,7 +43,7 @@ and sleep deprivation, will be explored to contextualize the study
     or heat stress, or to delve deeper into its effects at high altitude
     or during sleep deprivation.
 
-**Research Questions:**
+## Research Questions
 
 - How does Ārepa supplementation affect attentional and working memory
   networks during high altitude exposure?
@@ -52,7 +54,7 @@ and sleep deprivation, will be explored to contextualize the study
 - What additional cognitive benefits can be observed under cold or heat
   stress conditions?
 
-**Research Approach**
+# **Research Approach**
 
 The proposed research aims to systematically investigate the efficacy of
 the Ārepa formulation in enhancing and protecting cognitive function
@@ -62,7 +64,7 @@ approach integrates qualitative and quantitative methods to provide a
 robust understanding of Ārepa's effects on cognitive performance and
 physiological responses.
 
-**1. Systematic Literature Review:**
+## **Systematic Literature Review:**
 
 **Purpose:** To consolidate existing knowledge on the cognitive effects
 of anthocyanins and flavonoids, and the physiological responses to
@@ -77,13 +79,13 @@ hypotheses formulation and methodological considerations.
 understanding the mechanisms through which Ārepa formulation may
 influence cognitive function under stress conditions.
 
-**2. Experimental Design:**
+## **Experimental Design**
 
 **Purpose:** To empirically test specific hypotheses regarding the
 cognitive and physiological effects of Ārepa supplementation under
 controlled conditions.
 
-**Methods:**
+**Methods**
 
 - **Randomized Controlled Trials (RCTs):** Implement double-blind,
   placebo-controlled trials to assess the effects of Ārepa formulation
@@ -101,12 +103,12 @@ controlled conditions.
   (e.g., blood pressure, heart rate variability), and self-report scales
   (e.g., mood and fatigue questionnaires) to quantify quantitative data.
 
-**3. Data Collection and Analysis:**
+## **Data Collection and Analysis:**
 
 **Purpose:** To gather comprehensive empirical evidence on Ārepa
 formulation’s effects across diverse stress conditions.
 
-**Quantitative Data Analysis:**
+**Quantitative Data Analysis**
 
 - **Statistical Methods:** Employ ANOVA, regression analysis, and
   t-tests to analyze quantitative data. ANOVA will assess differences in
@@ -119,7 +121,7 @@ formulation’s effects across diverse stress conditions.
 - **Software:** Use statistical software such as SPSS or R for rigorous
   data analysis, ensuring accuracy and reliability of results.
 
-**Qualitative Data Analysis:**
+**Qualitative Data Analysis**
 
 - **Thematic Analysis:** Conduct thematic analysis of qualitative data
   obtained through semi-structured interviews or open-ended
@@ -134,7 +136,7 @@ formulation’s effects across diverse stress conditions.
   interpretations, providing a comprehensive perspective on cognitive
   resilience and physiological responses.
 
-**4. Ethical Considerations:**
+## **Ethical Considerations:**
 
 **Purpose:** To ensure ethical conduct and participant welfare
 throughout the research process.
@@ -149,7 +151,7 @@ throughout the research process.
   ensuring voluntary participation and confidentiality of data.
   Communicate potential risks and benefits clearly.
 
-**5. Knowledge Integration and Dissemination:**
+## **Knowledge Integration and Dissemination:**
 
 **Purpose:** To contribute new knowledge to the field of nutritional
 neuroscience and cognitive enhancement.
@@ -166,7 +168,7 @@ neuroscience and cognitive enhancement.
   scientific community. Foster dialogue and collaboration with
   researchers and stakeholders in the field.
 
-**Research Plan:**
+# Research Plan
 
 - **Year 1:** Conduct systematic literature review, refine research
   questions, and obtain ethical approval.
@@ -178,7 +180,7 @@ neuroscience and cognitive enhancement.
   publication, and disseminate findings through conferences and academic
   journals.
 
-**References:**
+# References
 
 - Bell, L., et al. (2015). A review of the cognitive effects observed in
   humans following acute supplementation with flavonoids, and their
