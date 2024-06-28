@@ -238,3 +238,32 @@ neuroscience and cognitive enhancement.
   supplementation on physiological responses, cognitive function, and
   exercise performance at moderate and very-high simulated altitude.
   *Frontiers in Physiology, 8*, 401.
+
+# Appendix 
+
+## ANOVA, regression, and t-tests - Developed using Python by Heider Jeffer
+
+<img src="./images/media/image1.png"
+style="width:6.5in;height:3.54375in"
+alt="A graph of a graph Description automatically generated with medium confidence" />  
+<img src="./images/media/image2.png"
+style="width:6.5in;height:3.56111in"
+alt="A graph with blue dots Description automatically generated" />
+
+## Distribution of cognitive scores - Developed using Python by Heider Jeffer
+
+<img src="./images/media/image3.png"
+style="width:6.5in;height:3.54375in"
+alt="A graph of different colored squares Description automatically generated" />  
+<img src="./images/media/image4.png"
+style="width:6.5in;height:3.56111in"
+alt="A graph with blue dots Description automatically generated" />
+
+## Histogram, regression, and scatter - Developed using Python by Heider Jeffer 
+
+<img src="./images/media/image5.png"
+style="width:6.5in;height:3.50764in"
+alt="A graph with different colored squares Description automatically generated" />  
+<img src="./images/media/image6.png"
+style="width:6.5in;height:3.56111in"
+alt="A graph with blue dots Description automatically generated" />
