@@ -267,3 +267,330 @@ alt="A graph with different colored squares Description automatically generated"
 <img src="./images/media/image6.png"
 style="width:6.5in;height:3.56111in"
 alt="A graph with blue dots Description automatically generated" />
+
+# Code Breakdown
+
+This code will generate three plots:
+
+1.  A histogram showing the distribution of cognitive scores for the
+    Arepa and placebo groups.
+
+2.  A regression plot showing the relationship between cognitive scores
+    and high altitude exposure.
+
+3.  A scatter plot showing the relationship between cognitive scores and
+    sleep deprivation, differentiated by the Arepa and placebo groups.
+
+The code and what each part does. This script simulates a research study
+to investigate the effects of the Ārepa formulation on cognitive
+function under stress conditions. The main parts of the script include
+setting up the research framework, conducting randomized controlled
+trials (RCTs), analyzing the data, and plotting the results.
+
+# Initialization
+
+The ArepaResearch class is created with several methods to simulate
+different stages of the research process.
+
+class ArepaResearch:
+
+def \_\_init\_\_(self):
+
+self.literature_review_complete = False
+
+self.ethical_approval_obtained = False
+
+self.experimental_data = None
+
+self.qualitative_data = None
+
+This initializes the class with boolean attributes to track the
+completion of the literature review and ethical approval, and attributes
+to store experimental and qualitative data.
+
+# Systematic Literature Review
+
+This method simulates a literature review.
+
+def systematic_literature_review(self):
+
+print("Conducting systematic literature review...")
+
+\# Placeholder for actual literature review code
+
+self.literature_review_complete = True
+
+print("Literature review complete.")
+
+# Ethical Approval
+
+This method simulates obtaining ethical approval for the study.
+
+def obtain_ethical_approval(self):
+
+print("Obtaining ethical approval...")
+
+\# Placeholder for actual ethical approval code
+
+self.ethical_approval_obtained = True
+
+print("Ethical approval obtained.")
+
+# Randomized Controlled Trials (RCTs)
+
+This method simulates the conduct of RCTs, generating synthetic data for
+the participants.
+
+def conduct_rcts(self):
+
+if not self.literature_review_complete or not
+self.ethical_approval_obtained:
+
+raise Exception("Complete literature review and obtain ethical approval
+first.")
+
+print("Starting randomized controlled trials (RCTs)...")
+
+n_participants = 100
+
+arepa_group = np.random.choice(\[0, 1\], size=n_participants, p=\[0.5,
+0.5\])
+
+high_altitude = np.random.normal(100, 10, n_participants)
+
+sleep_deprivation = np.random.normal(5, 1, n_participants)
+
+cognitive_scores = np.random.normal(75, 10, n_participants) +
+arepa_group \* 5
+
+mood_scores = np.random.normal(50, 5, n_participants) + arepa_group \* 3
+
+self.experimental_data = pd.DataFrame({
+
+'arepa_group': arepa_group,
+
+'high_altitude': high_altitude,
+
+'sleep_deprivation': sleep_deprivation,
+
+'cognitive_scores': cognitive_scores,
+
+'mood_scores': mood_scores
+
+})
+
+print("RCTs complete and data collected.")
+
+Here, 100 participants are randomly assigned to either the Ārepa or
+placebo group. Data for high altitude exposure, sleep deprivation,
+cognitive scores, and mood scores are generated using normal
+distributions. Cognitive scores and mood scores are adjusted based on
+group assignment.
+
+# Quantitative Analysis
+
+This method conducts various statistical analyses and creates plots.
+
+def quantitative_analysis(self):
+
+if self.experimental_data is None:
+
+raise Exception("No experimental data to analyze.")
+
+print("Conducting quantitative data analysis...")
+
+data = self.experimental_data
+
+\# ANOVA
+
+anova_results = stats.f_oneway(
+
+data\[data\['arepa_group'\] == 0\]\['cognitive_scores'\],
+
+data\[data\['arepa_group'\] == 1\]\['cognitive_scores'\]
+
+)
+
+print("ANOVA results:", anova_results)
+
+\# Regression analysis
+
+X = data\[\['high_altitude', 'sleep_deprivation', 'arepa_group'\]\]
+
+y = data\['cognitive_scores'\]
+
+reg = LinearRegression().fit(X, y)
+
+print("Regression coefficients:", reg.coef\_)
+
+\# t-tests
+
+t_test_results = stats.ttest_ind(
+
+data\[data\['arepa_group'\] == 0\]\['cognitive_scores'\],
+
+data\[data\['arepa_group'\] == 1\]\['cognitive_scores'\]
+
+)
+
+print("T-test results:", t_test_results)
+
+\# Plotting
+
+sns.set(style="whitegrid")
+
+\# Distribution of cognitive scores by group
+
+plt.figure(figsize=(12, 6))
+
+sns.histplot(data=data, x='cognitive_scores', hue='arepa_group',
+element="step", stat="density", common_norm=False, palette="pastel")
+
+plt.title('Distribution of Cognitive Scores by Group')
+
+plt.xlabel('Cognitive Scores')
+
+plt.ylabel('Density')
+
+plt.legend(title='Group', labels=\['Placebo', 'Arepa'\])
+
+plt.show()
+
+\# Regression plot for cognitive scores vs. high altitude
+
+plt.figure(figsize=(12, 6))
+
+sns.regplot(x='high_altitude', y='cognitive_scores', data=data,
+scatter_kws={'alpha':0.5})
+
+plt.title('Cognitive Scores vs. High Altitude Exposure')
+
+plt.xlabel('High Altitude Exposure')
+
+plt.ylabel('Cognitive Scores')
+
+plt.show()
+
+\# Scatter plot for cognitive scores vs. sleep deprivation
+
+plt.figure(figsize=(12, 6))
+
+sns.scatterplot(x='sleep_deprivation', y='cognitive_scores',
+hue='arepa_group', palette="pastel", alpha=0.7, data=data)
+
+plt.title('Cognitive Scores vs. Sleep Deprivation')
+
+plt.xlabel('Sleep Deprivation (hours)')
+
+plt.ylabel('Cognitive Scores')
+
+plt.legend(title='Group', labels=\['Placebo', 'Arepa'\])
+
+plt.show()
+
+- **ANOVA**: Compares cognitive scores between the two groups.
+
+- **Regression Analysis**: Examines the relationship between cognitive
+  scores and high altitude, sleep deprivation, and group assignment.
+
+- **t-tests**: Compares the means of cognitive scores between groups.
+
+- **Plotting**: Generates three types of plots:
+
+  1.  Histogram of cognitive scores by group.
+
+  2.  Regression plot of cognitive scores vs. high altitude.
+
+  3.  Scatter plot of cognitive scores vs. sleep deprivation, colored by
+      group.
+
+# Qualitative Analysis
+
+This method conducts a thematic analysis of qualitative data.
+
+def qualitative_analysis(self):
+
+print("Conducting qualitative data analysis...")
+
+if self.qualitative_data is None:
+
+self.qualitative_data = \[
+
+"Participants reported increased focus.",
+
+"Some participants felt no change.",
+
+"Several participants experienced improved mood."
+
+\]
+
+themes = {'increased_focus': 0, 'no_change': 0, 'improved_mood': 0}
+
+for response in self.qualitative_data:
+
+if "increased focus" in response.lower():
+
+themes\['increased_focus'\] += 1
+
+if "no change" in response.lower():
+
+themes\['no_change'\] += 1
+
+if "improved mood" in response.lower():
+
+themes\['improved_mood'\] += 1
+
+print("Identified themes:", themes)
+
+# Knowledge Integration and Dissemination
+
+This method synthesizes findings and prepares for dissemination.
+
+def knowledge_integration_and_dissemination(self):
+
+print("Integrating knowledge and disseminating findings...")
+
+\# Synthesize findings with existing literature
+
+\# Prepare manuscripts for publication and present at conferences
+
+print("Research findings integrated and ready for dissemination.")
+
+# Running the Research Plan
+
+\# Instantiate the research class and run the research plan
+
+research = ArepaResearch()
+
+research.systematic_literature_review()
+
+research.obtain_ethical_approval()
+
+research.conduct_rcts()
+
+research.quantitative_analysis()
+
+research.qualitative_analysis()
+
+research.knowledge_integration_and_dissemination()
+
+This code creates an instance of the ArepaResearch class and
+sequentially calls the methods to simulate the entire research process
+from literature review to dissemination.
+
+# Summary of Plots
+
+1.  **Histogram of Cognitive Scores**: Shows the distribution of
+    cognitive scores for both the Arepa and placebo groups, highlighting
+    any differences.
+
+2.  **Regression Plot**: Visualizes the relationship between cognitive
+    scores and high altitude exposure, with a trend line to show the
+    overall trend.
+
+3.  **Scatter Plot**: Displays the relationship between cognitive scores
+    and sleep deprivation, with points colored by group to distinguish
+    between Arepa and placebo groups.
+
+These plots help visualize the impact of the Ārepa formulation on
+cognitive performance under different stress conditions.
