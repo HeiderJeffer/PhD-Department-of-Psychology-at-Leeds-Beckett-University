@@ -1,5 +1,9 @@
 # Title: “Exploring the Cognitive and Physiological Effects of Ārepa Formulation under Cognitive Stress Conditions: A Systematic Approach Integrating Qualitative and Quantitative Analyses”
 
+## LEEDS BECKETT UNIVERSITY
+
+## PhD Projects in Psychology
+
 By Heider Jeffer
 
 This proposal outlines a structured approach to investigating the
