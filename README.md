@@ -1,6 +1,6 @@
-**Title:** “Exploring the Cognitive and Physiological Effects of Ārepa
-Formulation under Cognitive Stress Conditions: A Systematic Approach
-Integrating Qualitative and Quantitative Analyses” By Heider Jeffer
+# Title: “Exploring the Cognitive and Physiological Effects of Ārepa Formulation under Cognitive Stress Conditions: A Systematic Approach Integrating Qualitative and Quantitative Analyses”
+
+By Heider Jeffer
 
 This proposal outlines a structured approach to investigating the
 cognitive benefits of Ārepa formulation under conditions of cognitive
@@ -64,7 +64,7 @@ approach integrates qualitative and quantitative methods to provide a
 robust understanding of Ārepa's effects on cognitive performance and
 physiological responses.
 
-## **Systematic Literature Review:**
+## Systematic Literature Review
 
 **Purpose:** To consolidate existing knowledge on the cognitive effects
 of anthocyanins and flavonoids, and the physiological responses to
@@ -79,7 +79,7 @@ hypotheses formulation and methodological considerations.
 understanding the mechanisms through which Ārepa formulation may
 influence cognitive function under stress conditions.
 
-## **Experimental Design**
+## Experimental Design
 
 **Purpose:** To empirically test specific hypotheses regarding the
 cognitive and physiological effects of Ārepa supplementation under
