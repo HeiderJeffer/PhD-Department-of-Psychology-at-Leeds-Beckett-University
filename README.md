@@ -297,6 +297,7 @@ trials (RCTs), analyzing the data, and plotting the results.
 The ArepaResearch class is created with several methods to simulate
 different stages of the research process.
 
+```
 class ArepaResearch:
 
 def \_\_init\_\_(self):
@@ -308,6 +309,7 @@ self.ethical_approval_obtained = False
 self.experimental_data = None
 
 self.qualitative_data = None
+```
 
 This initializes the class with boolean attributes to track the
 completion of the literature review and ethical approval, and attributes
@@ -316,7 +318,7 @@ to store experimental and qualitative data.
 # Systematic Literature Review
 
 This method simulates a literature review.
-
+```
 def systematic_literature_review(self):
 
 print("Conducting systematic literature review...")
@@ -326,11 +328,13 @@ print("Conducting systematic literature review...")
 self.literature_review_complete = True
 
 print("Literature review complete.")
+```
 
 # Ethical Approval
 
 This method simulates obtaining ethical approval for the study.
 
+```
 def obtain_ethical_approval(self):
 
 print("Obtaining ethical approval...")
@@ -340,11 +344,14 @@ print("Obtaining ethical approval...")
 self.ethical_approval_obtained = True
 
 print("Ethical approval obtained.")
+```
 
 # Randomized Controlled Trials (RCTs)
 
 This method simulates the conduct of RCTs, generating synthetic data for
 the participants.
+
+```
 
 def conduct_rcts(self):
 
@@ -385,6 +392,7 @@ self.experimental_data = pd.DataFrame({
 })
 
 print("RCTs complete and data collected.")
+```
 
 Here, 100 participants are randomly assigned to either the Ārepa or
 placebo group. Data for high altitude exposure, sleep deprivation,
@@ -396,6 +404,7 @@ group assignment.
 
 This method conducts various statistical analyses and creates plots.
 
+```
 def quantitative_analysis(self):
 
 if self.experimental_data is None:
@@ -492,6 +501,7 @@ plt.ylabel('Cognitive Scores')
 plt.legend(title='Group', labels=\['Placebo', 'Arepa'\])
 
 plt.show()
+```
 
 - **ANOVA**: Compares cognitive scores between the two groups.
 
@@ -513,6 +523,7 @@ plt.show()
 
 This method conducts a thematic analysis of qualitative data.
 
+```
 def qualitative_analysis(self):
 
 print("Conducting qualitative data analysis...")
@@ -560,11 +571,13 @@ print("Integrating knowledge and disseminating findings...")
 \# Prepare manuscripts for publication and present at conferences
 
 print("Research findings integrated and ready for dissemination.")
+```
 
 # Running the Research Plan
 
 \# Instantiate the research class and run the research plan
 
+```
 research = ArepaResearch()
 
 research.systematic_literature_review()
@@ -582,6 +595,7 @@ research.knowledge_integration_and_dissemination()
 This code creates an instance of the ArepaResearch class and
 sequentially calls the methods to simulate the entire research process
 from literature review to dissemination.
+```
 
 # Summary of Plots
 
