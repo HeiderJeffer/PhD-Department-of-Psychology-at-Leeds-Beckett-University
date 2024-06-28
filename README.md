@@ -27,25 +27,6 @@ You can access them via the following links:
     Heider
     Jeffer](https://colab.research.google.com/drive/1HsfzlyiiHkLlAzLlFMaJIp-rD7qYtbao)
 
-I have also created an official website on GitHub and a dedicated Lab
-for Leeds Beckett University. These platforms will be used to store
-research materials and execute the project methodologies online using
-Python code I developed. You can access them via the following links:
-
-- **GitHub**:
-  <https://github.com/HeiderJeffer/PhD-Leeds-Beckett-University>
-
-- **Lab - LEEDS BECKETT UNIVERSITY**:
-
-  - [ANOVA, regression, and
-    t-tests](https://colab.research.google.com/drive/15NjSUGk4SvFHzr-GGLKPu_CWO94y-SXG)
-
-  - [Distribution of cognitive
-    scores](https://colab.research.google.com/drive/14qhCr8YvgzzQZp0HbPUG4kRJx3YpzuFo)
-
-  - [Histogram, regression, and
-    scatter](https://colab.research.google.com/drive/1HsfzlyiiHkLlAzLlFMaJIp-rD7qYtbao)
-
 This proposal outlines a structured approach to investigating the
 cognitive benefits of Ārepa formulation under conditions of cognitive
 stress, aiming to contribute significantly to the field of nutritional
