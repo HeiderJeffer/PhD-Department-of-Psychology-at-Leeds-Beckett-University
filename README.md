@@ -13,9 +13,7 @@ You can access them via the following links:
 - Read and download online/offline the Proposal in
   [PDF](https://github.com/HeiderJeffer/PhD-Leeds-Beckett-University/blob/main/n.pdf)
 
-<!-- -->
-
-- **GitHub**: <https://github.com/HeiderJeffer/PhD-Leeds-Beckett-University>      
+ 
 
 - **Lab - LEEDS BECKETT UNIVERSITY**:
 
