@@ -1,12 +1,6 @@
-# Title: “Exploring the Cognitive and Physiological Effects of Ārepa Formulation under Cognitive Stress Conditions: A Systematic Approach Integrating Qualitative and Quantitative Analyses”
+##### Title: “Exploring the Cognitive and Physiological Effects of Ārepa Formulation under Cognitive Stress Conditions: A Systematic Approach Integrating Qualitative and Quantitative Analyses”
 
-## LEEDS BECKETT UNIVERSITY
-
-## PhD Projects in Psychology
-
-By Heider Jeffer
-
-Supervisor(s): Prof. Lauren Owen
+Author Heider Jeffer
 
 I have created an official website on GitHub and a dedicated Lab for
 Leeds Beckett University. These platforms will be used to store research
