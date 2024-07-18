@@ -3,8 +3,9 @@
 Author Heider Jeffer
 
 I have created an official website on GitHub and a dedicated Lab for
-Leeds Beckett University. These platforms will be used to store research
-materials and execute the project methodologies online using Python code
+this study. 
+
+These platforms will be used to store research materials and execute the project methodologies online using Python code
 I developed.
 
 You can access them via the following links:
